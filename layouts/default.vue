@@ -1,6 +1,9 @@
 <template>
-    <h1>hi</h1>
     <AppHeader/>
     <slot/>
     <AppFooter/>
 </template>
+
+<style scoped>
+    @import 'https://unpkg.com/@sakun/system.css';
+</style>
