@@ -12,7 +12,7 @@
             </div>
             <label for="text_email">
                 <input class="normal-text" type="text" v-model="b"></input></label><br>
-            <input id="text_email" type="email" /><br>
+            <input id="text_email" type="text" /><br>
             <label for="text_pwd">
                 <input class="normal-text" type="text" v-model="c"></input></label><br>
             <input id="text_pwd" type="password" /><br><br>
@@ -26,7 +26,7 @@
 <style scoped>
 @import './assets/css/chatapp-css.css';
 form {
-    margin-top: 10%;
+    margin-top: 3%;
 }
 </style>
 
