@@ -6,7 +6,7 @@
 </template>
 
 <style scoped>
-@import './assets/css/chatapp-css.css';
+@import '@/assets/css/chatapp-css.css';
 div{
     margin: auto;
     width: 95vw !important;

@@ -17,7 +17,7 @@
 </script>
 
 <style scoped>
-@import './assets/css/chatapp-css.css';
+@import '@/assets/css/chatapp-css.css';
 
 .header {
     position: relative;
