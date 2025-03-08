@@ -3,9 +3,12 @@
         <input class="normal-text" type="text" v-model="chat_app"></input>
     </h2>
     <h1>
-        <input class="normal-text header" type="text" v-model="about"></input>
-        <input class="normal-text header" type="text" v-model="privacy_policy"></input>
-        <input class="normal-text header" type="text" v-model="login_btn"></input>
+        <NuxtLink to="/about">
+        <input class="normal-text header" type="text" v-model="about"></input></NuxtLink>
+        <NuxtLink to="/privacy">
+        <input class="normal-text header" type="text" v-model="privacy_policy"></input></NuxtLink>
+        <NuxtLink to="/login">
+        <input class="normal-text header" type="text" v-model="login_btn"></input></NuxtLink>
     </h1>
 </template>
 

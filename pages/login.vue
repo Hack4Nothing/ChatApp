@@ -19,10 +19,11 @@
             <label for="text_pwd">
                 <input class="normal-text" type="text" v-model="password"></input></label><br>
             <input id="text_pwd" type="password" /><br><br>
-            
-                <input class="btn" type="text" v-model="btn_login"></input>
+            <NuxtLink to="/chat">
+            <input class="btn" type="text" v-model="btn_login"></input></NuxtLink>
             <br><br>
-            <input class="normal-text" type="text" v-model="newuser"></input><br><br>
+            <NuxtLink to="/register">
+            <input class="normal-text" type="text" v-model="newuser"></input><br><br></NuxtLink>
 
         </center>
     </form>

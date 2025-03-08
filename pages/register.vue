@@ -30,8 +30,8 @@
             <label for="otp_verification">
             <input class="normal-text otp-verification" type="text" v-model="otp"></input></label><br>
             <input id="otp_verification" type="text"/><br><br>
-
-            <input class="btn" type="text" v-model="register"></input>
+            <NuxtLink to="/login">
+            <input class="btn" type="text" v-model="register"></input></NuxtLink>
         </center>
     </form>
 </template>
