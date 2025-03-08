@@ -3,18 +3,9 @@
         <input class="normal-text" type="text" v-model="chat_app" @blur="saveValue('chat_app', chat_app)">
     </h2>
     <h1>
-<<<<<<< Updated upstream
-        <NuxtLink to="/about">
-        <input class="normal-text header" type="text" v-model="about"></input></NuxtLink>
-        <NuxtLink to="/privacy">
-        <input class="normal-text header" type="text" v-model="privacy_policy"></input></NuxtLink>
-        <NuxtLink to="/login">
-        <input class="normal-text header" type="text" v-model="login_btn"></input></NuxtLink>
-=======
         <input class="normal-text header" type="text" v-model="about" @blur="saveValue('about', about)">
         <input class="normal-text header" type="text" v-model="privacy_policy" @blur="saveValue('privacy_policy', privacy_policy)">
         <input class="normal-text header" type="text" v-model="login_btn" @blur="saveValue('login_btn', login_btn)">
->>>>>>> Stashed changes
     </h1>
 </template>
 

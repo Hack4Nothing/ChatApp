@@ -19,13 +19,8 @@
             <label for="text_pwd">
                 <input class="normal-text" type="text" v-model="password"></input></label><br>
             <input id="text_pwd" type="password" /><br><br>
-<<<<<<< Updated upstream
-            <NuxtLink to="/chat">
-            <input class="btn" type="text" v-model="btn_login"></input></NuxtLink>
-=======
 
             <input class="btn" type="text" v-model="btn_login" @click="login"></input>
->>>>>>> Stashed changes
             <br><br>
             <NuxtLink to="/register">
             <input class="normal-text" type="text" v-model="newuser"></input><br><br></NuxtLink>
